@@ -1,5 +1,5 @@
 import requests
-print('你好，我是青云客聊天机器人！')
+print('你好，我是一枚萌萌哒的机器人！')
 while 1:
     s=input()
     resp=requests.get("http://api.qingyunke.com/api.php",{
